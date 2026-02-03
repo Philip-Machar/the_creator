@@ -244,6 +244,14 @@
                 repeating-linear-gradient(45deg, transparent, transparent 15px, rgba(92, 77, 60, 0.03) 15px, rgba(92, 77, 60, 0.03) 30px);
         }
 
+        /* Ensure images inside placeholders fill the box without distorting layout */
+        .image-placeholder img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
         /* Image Grid Section */
         .image-grid-section {
             margin: 6rem 0;
@@ -593,7 +601,7 @@
             <div class="content-image">
                 <div class="image-frame">
                     <div class="image-placeholder large">
-                        <img src="https://r2.erweima.ai/imgcompressed/img/compressed_9e7c05929e1c677ae594057fc11da550.webp" alt="">
+                        <img src="https://media.craiyon.com/2025-04-16/PKAu-DdKQ3q7g6zHeUu1hg.webp" alt="">
                     </div>
                     <p class="image-caption">The Divine Touch: The moment of creation—where finite meets infinite</p>
                 </div>
@@ -613,7 +621,7 @@
             <div class="content-image">
                 <div class="image-frame">
                     <div class="image-placeholder large">
-                        <span style="font-size: 4rem; color: var(--gold);">🌌</span>
+                        <img src="https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/content-assets/images/20230218_STP504.jpg" alt="Spiral galaxy" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
                     </div>
                     <p class="image-caption">The Cosmic Canvas: Galaxies spiral in mathematical precision</p>
                 </div>
@@ -638,21 +646,21 @@
             <div class="image-grid">
                 <div class="grid-item">
                     <div class="image-placeholder medium">
-                        <span style="font-size: 3rem; color: var(--gold);">⚛️</span>
+                        <img src="https://scx2.b-cdn.net/gfx/news/2023/milestone-for-novel-at.jpg" alt="Atomic structure illustration" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
                     </div>
                     <h3>Atomic Precision</h3>
                     <p>The quantum realm reveals order at the smallest scales—particles dancing to mathematical laws of exquisite elegance.</p>
                 </div>
                 <div class="grid-item">
                     <div class="image-placeholder medium">
-                        <span style="font-size: 3rem; color: var(--gold);">🧬</span>
+                        <img src="https://www.totalhealth.co.uk/sites/default/files/inline-images/Single%20cell.jpeg" alt="DNA double helix" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
                     </div>
                     <h3>Biological Complexity</h3>
                     <p>DNA carries information with a density millions of times greater than our most advanced technology—a library of life in every cell.</p>
                 </div>
                 <div class="grid-item">
                     <div class="image-placeholder medium">
-                        <span style="font-size: 3rem; color: var(--gold);">🧠</span>
+                        <img src="https://neurosciencenews.com/files/2019/04/da-vinci-brain-neurosciencnews-public.jpg" alt="Human brain illustration" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
                     </div>
                     <h3>Conscious Mind</h3>
                     <p>We are matter that has become aware, dust that contemplates infinity, creatures capable of mathematics, music, and meaning.</p>
@@ -674,7 +682,7 @@
             <div class="content-image">
                 <div class="image-frame">
                     <div class="image-placeholder large">
-                        <span style="font-size: 4rem; color: var(--gold);">📐</span>
+                        <img src="https://laurensmithart.wordpress.com/wp-content/uploads/2014/09/vitruvian-man.jpg" alt="Vitruvian proportions" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
                     </div>
                     <p class="image-caption">Vitruvian Harmony: Da Vinci's study reveals mathematical perfection in human form</p>
                 </div>
@@ -693,7 +701,7 @@
         <section class="feature-section">
             <div class="feature-image">
                 <div class="image-placeholder hero">
-                    <span style="font-size: 5rem; color: var(--gold);">🏛️</span>
+                    <img src="https://img.freepik.com/free-photo/sun-god-depicted-as-powerful-man-renaissance-setting_23-2151296094.jpg?semt=ais_hybrid&w=740&q=80" alt="Classical architecture" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
                 </div>
             </div>
             <div class="feature-content">
@@ -718,51 +726,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- Image + Text Layout (Reversed) -->
-        <section class="content-row reverse">
-            <div class="content-image">
-                <div class="image-frame">
-                    <div class="image-placeholder large">
-                        <span style="font-size: 4rem; color: var(--gold);">🌅</span>
-                    </div>
-                    <p class="image-caption">Dawn of Understanding: Each sunrise speaks of faithful cosmic choreography</p>
-                </div>
-            </div>
-            <div class="content-text">
-                <h2>A Personal Testament</h2>
-                <p>
-                    Every morning when I wake, I encounter fresh evidence of the Creator's genius. The regularity of sunrise speaks of faithful cosmic choreography. My consciousness—this strange ability to experience, to think, to wonder—remains inexplicable apart from a divine origin.
-                </p>
-                <p>
-                    When I study science, I do not find faith diminishing but deepening. Each discovery reveals new depths of complexity, new layers of elegance, new reasons for wonder. The God of the gaps has become the God of the explanations.
-                </p>
-            </div>
-        </section>
-
-        <!-- Closing Section -->
-        <section class="closing-section">
-            <div class="closing-image">
-                <div class="image-placeholder wide">
-                    <span style="font-size: 4rem; color: var(--gold);">✨</span>
-                </div>
-            </div>
-            <div class="closing-text">
-                <h2>An Inadequate Tribute</h2>
-                <p>
-                    Words fail when attempting to capture the magnitude of what the Creator has accomplished. This webpage itself is a tiny echo of the creative principle that underlies reality. Just as I have arranged code and design to convey beauty and truth, so the Creator has arranged atoms and energy to form a cosmos of incomprehensible grandeur.
-                </p>
-                <p>
-                    To admire the Creator is not to embrace ignorance or superstition, but to acknowledge what honest observation reveals: that intelligence precedes nature, that design necessitates a Designer, that the finite points to the infinite.
-                </p>
-                <p class="final-words">
-                    "For since the creation of the world God's invisible qualities—his eternal power and divine nature—have been clearly seen, being understood from what has been made."
-                    <br><em>— Romans 1:20</em>
-                </p>
-            </div>
-        </section>
-    </main>
-
     <footer>
         <div class="footer-ornament">✦ ✧ ✦</div>
         <p><strong>A Humble Offering of Admiration</strong></p>
